@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "133015792295",
+    "firebase_url": "https://rapidremit-e8df5.firebaseio.com",
+    "project_id": "rapidremit-e8df5",
+    "storage_bucket": "rapidremit-e8df5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133015792295:android:04d6981920bb2abf6c0982",
+        "android_client_info": {
+          "package_name": "com.a_rapidremit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133015792295-jbc46tsa0k8b7gi7acpfgb18rl4erkk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLMrRqevQoAJE6g8CVSXYREDN1nFuXHDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133015792295-jbc46tsa0k8b7gi7acpfgb18rl4erkk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

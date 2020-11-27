@@ -1,0 +1,6 @@
+module Pods_a_rapidremit {
+  umbrella header "Pods-a_rapidremit-umbrella.h"
+
+  export *
+  module * { export * }
+}

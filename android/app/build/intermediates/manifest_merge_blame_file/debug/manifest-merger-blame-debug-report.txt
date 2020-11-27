@@ -1,0 +1,232 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.a_rapidremit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.33.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/60031fce92b64fa43508dbd168ec5af6/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.33.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/60031fce92b64fa43508dbd168ec5af6/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_storage] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+14-->[:react-native-firebase_storage] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- TODO(salakar) Not sure if this should be part of the package manifest or leave to users app manifest code? -->
+15-->[:react-native-firebase_storage] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+15-->[:react-native-firebase_storage] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[:react-native-firebase_storage] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-80
+16-->[:react-native-firebase_storage] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[:react-native-firebase_storage] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-81
+17-->[:react-native-firebase_storage] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-78
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-iid:20.1.5] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/0e74e9fd5fc5b42223e01e8c833de65c/firebase-iid-20.1.5/AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:20.1.5] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/0e74e9fd5fc5b42223e01e8c833de65c/firebase-iid-20.1.5/AndroidManifest.xml:26:22-79
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:6:5-24:19
+22        android:name="com.a_rapidremit.MainApplication"
+22-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:7:7-38
+23        android:allowBackup="false"
+23-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:10:7-34
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/51c60a74c89e63786feb7a72e94c376c/core-1.1.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:9:7-41
+27        android:label="@string/app_name"
+27-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:8:7-39
+28        android:theme="@style/AppTheme"
+28-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:11:7-38
+29        android:usesCleartextTraffic="true" >
+29-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/debug/AndroidManifest.xml:7:18-53
+30        <activity
+30-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:12:7-22:18
+31            android:name="com.a_rapidremit.MainActivity"
+31-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:13:9-37
+32            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+32-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:15:9-86
+33            android:label="@string/app_name"
+33-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:14:9-41
+34            android:launchMode="singleTask"
+34-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:16:9-40
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:17:9-51
+36            <intent-filter>
+36-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:18:9-21:25
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:19:13-65
+37-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:19:21-62
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:20:13-73
+39-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:20:23-70
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+42-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:23:7-84
+42-->/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/src/main/AndroidManifest.xml:23:17-81
+43
+44        <provider
+44-->[:react-native-image-picker] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+45            android:name="com.imagepicker.FileProvider"
+45-->[:react-native-image-picker] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+46            android:authorities="com.a_rapidremit.provider"
+46-->[:react-native-image-picker] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+47            android:exported="false"
+47-->[:react-native-image-picker] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+48            android:grantUriPermissions="true" >
+48-->[:react-native-image-picker] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+49            <meta-data
+49-->[:react-native-image-picker] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+50                android:name="android.support.FILE_PROVIDER_PATHS"
+50-->[:react-native-image-picker] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+51                android:resource="@xml/provider_paths" />
+51-->[:react-native-image-picker] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+52        </provider>
+53        <provider
+53-->[:react-native-share] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+54            android:name="cl.json.RNShareFileProvider"
+54-->[:react-native-share] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-55
+55            android:authorities="com.a_rapidremit.rnshare.fileprovider"
+55-->[:react-native-share] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-72
+56            android:exported="false"
+56-->[:react-native-share] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+57            android:grantUriPermissions="true" >
+57-->[:react-native-share] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+58            <meta-data
+58-->[:react-native-image-picker] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->[:react-native-image-picker] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+60                android:resource="@xml/share_download_paths" />
+60-->[:react-native-image-picker] /Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+61        </provider>
+62
+63        <meta-data
+63-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/f1160fc2649e7226ff7e4bcc8dcde955/okhttp3-integration-4.11.0/AndroidManifest.xml:11:9-13:43
+64            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+64-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/f1160fc2649e7226ff7e4bcc8dcde955/okhttp3-integration-4.11.0/AndroidManifest.xml:12:13-84
+65            android:value="GlideModule" />
+65-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/f1160fc2649e7226ff7e4bcc8dcde955/okhttp3-integration-4.11.0/AndroidManifest.xml:13:13-40
+66
+67        <service
+67-->[com.google.firebase:firebase-storage:19.1.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/7b65dbfacc3808ade347d51c6f44c55c/firebase-storage-19.1.1/AndroidManifest.xml:30:9-36:19
+68            android:name="com.google.firebase.components.ComponentDiscoveryService"
+68-->[com.google.firebase:firebase-storage:19.1.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/7b65dbfacc3808ade347d51c6f44c55c/firebase-storage-19.1.1/AndroidManifest.xml:31:13-84
+69            android:directBootAware="true"
+69-->[com.google.firebase:firebase-common:19.3.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/749f8663808a52d79119beaacc9875c3/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+70            android:exported="false" >
+70-->[com.google.firebase:firebase-storage:19.1.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/7b65dbfacc3808ade347d51c6f44c55c/firebase-storage-19.1.1/AndroidManifest.xml:32:13-37
+71            <meta-data
+71-->[com.google.firebase:firebase-storage:19.1.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/7b65dbfacc3808ade347d51c6f44c55c/firebase-storage-19.1.1/AndroidManifest.xml:33:13-35:85
+72                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+72-->[com.google.firebase:firebase-storage:19.1.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/7b65dbfacc3808ade347d51c6f44c55c/firebase-storage-19.1.1/AndroidManifest.xml:34:17-107
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-storage:19.1.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/7b65dbfacc3808ade347d51c6f44c55c/firebase-storage-19.1.1/AndroidManifest.xml:35:17-82
+74            <meta-data
+74-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a51806d0e59ff9433870568f30944c6a/play-services-measurement-api-17.4.1/AndroidManifest.xml:30:13-32:85
+75                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+75-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a51806d0e59ff9433870568f30944c6a/play-services-measurement-api-17.4.1/AndroidManifest.xml:31:17-139
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a51806d0e59ff9433870568f30944c6a/play-services-measurement-api-17.4.1/AndroidManifest.xml:32:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-iid:20.1.5] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/0e74e9fd5fc5b42223e01e8c833de65c/firebase-iid-20.1.5/AndroidManifest.xml:32:13-34:85
+78                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+78-->[com.google.firebase:firebase-iid:20.1.5] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/0e74e9fd5fc5b42223e01e8c833de65c/firebase-iid-20.1.5/AndroidManifest.xml:33:17-96
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-iid:20.1.5] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/0e74e9fd5fc5b42223e01e8c833de65c/firebase-iid-20.1.5/AndroidManifest.xml:34:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-installations:16.2.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/24c742431253f4b72d438133116b1a60/firebase-installations-16.2.1/AndroidManifest.xml:17:13-19:85
+81                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+81-->[com.google.firebase:firebase-installations:16.2.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/24c742431253f4b72d438133116b1a60/firebase-installations-16.2.1/AndroidManifest.xml:18:17-127
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-installations:16.2.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/24c742431253f4b72d438133116b1a60/firebase-installations-16.2.1/AndroidManifest.xml:19:17-82
+83        </service>
+84
+85        <receiver
+85-->[com.google.firebase:firebase-iid:20.1.5] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/0e74e9fd5fc5b42223e01e8c833de65c/firebase-iid-20.1.5/AndroidManifest.xml:37:9-44:20
+86            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+86-->[com.google.firebase:firebase-iid:20.1.5] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/0e74e9fd5fc5b42223e01e8c833de65c/firebase-iid-20.1.5/AndroidManifest.xml:38:13-78
+87            android:exported="true"
+87-->[com.google.firebase:firebase-iid:20.1.5] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/0e74e9fd5fc5b42223e01e8c833de65c/firebase-iid-20.1.5/AndroidManifest.xml:39:13-36
+88            android:permission="com.google.android.c2dm.permission.SEND" >
+88-->[com.google.firebase:firebase-iid:20.1.5] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/0e74e9fd5fc5b42223e01e8c833de65c/firebase-iid-20.1.5/AndroidManifest.xml:40:13-73
+89            <intent-filter>
+89-->[com.google.firebase:firebase-iid:20.1.5] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/0e74e9fd5fc5b42223e01e8c833de65c/firebase-iid-20.1.5/AndroidManifest.xml:41:13-43:29
+90                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+90-->[com.google.firebase:firebase-iid:20.1.5] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/0e74e9fd5fc5b42223e01e8c833de65c/firebase-iid-20.1.5/AndroidManifest.xml:42:17-81
+90-->[com.google.firebase:firebase-iid:20.1.5] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/0e74e9fd5fc5b42223e01e8c833de65c/firebase-iid-20.1.5/AndroidManifest.xml:42:25-78
+91            </intent-filter>
+92        </receiver>
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:17.0.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:17.0.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:17.0.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:17.0.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+98
+99        <provider
+99-->[com.google.firebase:firebase-common:19.3.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/749f8663808a52d79119beaacc9875c3/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+100            android:name="com.google.firebase.provider.FirebaseInitProvider"
+100-->[com.google.firebase:firebase-common:19.3.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/749f8663808a52d79119beaacc9875c3/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+101            android:authorities="com.a_rapidremit.firebaseinitprovider"
+101-->[com.google.firebase:firebase-common:19.3.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/749f8663808a52d79119beaacc9875c3/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+102            android:exported="false"
+102-->[com.google.firebase:firebase-common:19.3.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/749f8663808a52d79119beaacc9875c3/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+103            android:initOrder="100" />
+103-->[com.google.firebase:firebase-common:19.3.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/749f8663808a52d79119beaacc9875c3/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+104
+105        <receiver
+105-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:29:9-33:20
+106            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+106-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:30:13-85
+107            android:enabled="true"
+107-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:31:13-35
+108            android:exported="false" >
+108-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:32:13-37
+109        </receiver>
+110
+111        <service
+111-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:35:9-38:40
+112            android:name="com.google.android.gms.measurement.AppMeasurementService"
+112-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:36:13-84
+113            android:enabled="true"
+113-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:37:13-35
+114            android:exported="false" />
+114-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:38:13-37
+115        <service
+115-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:39:9-43:72
+116            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+116-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:40:13-87
+117            android:enabled="true"
+117-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:41:13-35
+118            android:exported="false"
+118-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:42:13-37
+119            android:permission="android.permission.BIND_JOB_SERVICE" />
+119-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d55fd39f413f2193532ca39373554e93/play-services-measurement-17.4.1/AndroidManifest.xml:43:13-69
+120
+121        <meta-data
+121-->[com.google.android.gms:play-services-basement:17.0.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/c1f649247a033a796ac80883ed39b710/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+122            android:name="com.google.android.gms.version"
+122-->[com.google.android.gms:play-services-basement:17.0.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/c1f649247a033a796ac80883ed39b710/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+123            android:value="@integer/google_play_services_version" />
+123-->[com.google.android.gms:play-services-basement:17.0.0] /Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/c1f649247a033a796ac80883ed39b710/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+124    </application>
+125
+126</manifest>
