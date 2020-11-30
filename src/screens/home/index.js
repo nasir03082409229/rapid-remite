@@ -292,8 +292,8 @@ class Home extends React.Component {
                 {this.state.selecting_flag
                   ? this.state.selecting_flag.currency_name
                   : this.props.country_selected
-                  ? this.props.country_selected.currency_name
-                  : country_selected.currency_name}
+                    ? this.props.country_selected.currency_name
+                    : country_selected.currency_name}
               </Text>
             </Animatable.View>
           </View>
@@ -333,7 +333,7 @@ class Home extends React.Component {
       easing: Easing.bounce,
       useNativeDriver: true,
       // useNativeDriver: true // <-- Add this
-    }).start(() => {});
+    }).start(() => { });
   };
 
   render() {

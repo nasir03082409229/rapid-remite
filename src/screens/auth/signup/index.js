@@ -78,7 +78,7 @@ class Signup extends React.Component {
             heading={"Create an Account"}
           />
           <Formik
-            validationSchema={validation}
+            // validationSchema={validation}
             onSubmit={(text) => this.handleSubmit(text)}
             initialValues={{
               firstName: "",

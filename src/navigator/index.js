@@ -207,7 +207,7 @@ class Navigator extends React.Component {
             this.props.user ? "Home" : !this.props.slider ? "Slider" : "Welcome"
           }
 
-          // initialRouteName="Contact"
+        // initialRouteName="Contact"
         >
           <Stack.Screen
             name="ChangePassword"

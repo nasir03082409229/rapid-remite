@@ -57,6 +57,7 @@ export const signIn = (instance, credentials) => async (dispatch, getState) => {
 
 export const signUp = (instance, credentials) => async (dispatch, getState) => {
   dispatch(instanceLoadingState(instance, true));
+  console.log('credentials=>', credentials);
   axios
     .post(API_URL + `users/signup`, credentials)
     .then((res) => {
