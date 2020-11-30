@@ -98,16 +98,12 @@ class MyTabs extends React.Component {
                     marginRight: 10,
                   }}
                 >
-                  <View>
-                    <Icons.MaterialCommunityIcons
+                  <View style={{}}>
+                    <Icons.MaterialIcons
                       name="menu"
-                      color={"white"}
+                      color={focused ? "white" : "white"}
                       size={26}
-                      style={{
-                        opacity: focused ? 1 : 0.5,
-                        alignSelf: "center",
-                        // marginTop: 5,
-                      }}
+                      style={{ opacity: focused ? 1 : 0.5, alignSelf: "center" }}
                     />
                     <Text style={{ color: "white", fontSize: 12 }}>Menu</Text>
                   </View>
@@ -152,7 +148,7 @@ class MyTabs extends React.Component {
             headerShown: false,
             tabBarLabel: "Live Rates",
             tabBarIcon: ({ color, focused }) => (
-              <Icons.MaterialCommunityIcons
+              <Icons.MaterialIcons
                 name="view-compact"
                 color={focused ? "white" : "white"}
                 size={26}
