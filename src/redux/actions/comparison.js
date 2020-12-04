@@ -27,6 +27,13 @@ export const getPatnerRates = (instance, from, to, amount) => async (
             .then((res) => {
               console.log("RESPONSE", res);
               if (res.status === 200) {
+                if (res.data == 'No Record Found') {
+                  alert(res.data);
+                  if (instance) {
+                    instance.setState({ loading: false });
+                  }
+                  return;
+                }
                 dispatch({
                   type: conversion.CONVERSION_PATNERS,
                   payload: res.data,
@@ -39,7 +46,7 @@ export const getPatnerRates = (instance, from, to, amount) => async (
               }
             })
             .catch((err) => {
-              console.log("RESPONSE ERROR", err.res);
+              console.log("RESPONSE ERROR", err);
             });
         })
         .catch(error => {
