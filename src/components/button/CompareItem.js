@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   Animated,
   Easing,
+  Linking, Platform
 } from "react-native";
 import { Container, Button, Content } from "native-base";
 import {
@@ -151,7 +152,7 @@ export default class CompareRateItem extends React.Component {
 
     const height_inter = this.state.height_animated.interpolate({
       inputRange: [0, 1],
-      outputRange: [0, 250],
+      outputRange: [0, 300],
       easing: Easing.linear,
     });
 
@@ -288,6 +289,25 @@ export default class CompareRateItem extends React.Component {
               "Tax",
               item.tax_deducted,
               item.base_currency
+            )}
+            {this.expandLine(
+              "Location",
+              <Icons.MaterialIcons
+                onPress={() => {
+                  const { location } = item;
+                  const scheme = Platform.select({ ios: 'maps:0,0?q=', android: 'geo:0,0?q=' });
+                  const latLng = `${location['0'].location.coordinates[0]},${location['0'].location.coordinates[1]}`;
+                  const url = Platform.select({
+                    ios: `${scheme}@${latLng}`,
+                    android: `${scheme}${latLng}`
+                  });
+                  Linking.openURL(url);
+                  console.log(url)
+                }}
+                name="location-on"
+                size={30}
+                color="#E8041D"
+              />
             )}
           </View>
         </Animated.View>
