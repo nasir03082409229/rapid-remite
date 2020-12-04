@@ -331,7 +331,6 @@ export default class CompareRateItem extends React.Component {
           <Text
             style={[styles.expandhead, { fontFamily: fonts.popins_semibold }]}
           >
-            {" "}
             {currency}
           </Text>
         </View>
