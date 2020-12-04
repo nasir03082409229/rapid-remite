@@ -31,6 +31,7 @@ class CompareRate extends React.Component {
         { Name: "Ria Money Transfer", img: Xpress, rate: "42.10" },
       ],
       selected_partner: [],
+      compare: false
     };
   }
   startCompare = () => {
@@ -75,6 +76,7 @@ class CompareRate extends React.Component {
   };
 
   render() {
+    const { compare } = this.state;
     return (
       <Container style={{ backgroundColor: "#f1f1f1" }}>
         <Image resizeMode="cover" source={BgSpiral} style={styles.bgSpirals} />
@@ -105,6 +107,26 @@ class CompareRate extends React.Component {
                 conversion rates for you
               </Text>
             </View>
+            {compare && <View
+              style={{
+                width: "95%",
+                alignSelf: "center",
+                marginBottom: 20,
+                // marginTop: 30,
+              }}
+            >
+              <SignInButton
+                disabled={this.state.selected_partner.length > 1 ? false : true}
+                text={"Compare"}
+                navigation={this.props.navigation}
+                // link={"Table"}
+                onPress={() => {
+                  this.props.navigation.navigate("Table", {
+                    selected_partner: this.state.selected_partner,
+                  });
+                }}
+              />
+            </View>}
 
             {this.props.results &&
               this.props.results.map((a, index) => {
@@ -121,27 +143,9 @@ class CompareRate extends React.Component {
                 );
               })}
           </View>
-          <View
-            style={{
-              width: "95%",
-              alignSelf: "center",
-              marginBottom: 20,
-              marginTop: 30,
-            }}
-          >
-            <SignInButton
-              disabled={this.state.selected_partner.length > 1 ? false : true}
-              text={"Compare"}
-              navigation={this.props.navigation}
-              // link={"Table"}
-              onPress={() => {
-                this.props.navigation.navigate("Table", {
-                  selected_partner: this.state.selected_partner,
-                });
-              }}
-            />
-          </View>
+
         </Content>
+
       </Container>
     );
   }

@@ -151,7 +151,7 @@ export default class CompareRateItem extends React.Component {
 
     const height_inter = this.state.height_animated.interpolate({
       inputRange: [0, 1],
-      outputRange: [0, 150],
+      outputRange: [0, 250],
       easing: Easing.linear,
     });
 
@@ -277,6 +277,16 @@ export default class CompareRateItem extends React.Component {
             {this.expandLine(
               "Fee",
               item.payment_fees.toFixed(3),
+              item.base_currency
+            )}
+            {this.expandLine(
+              "Rate",
+              item.rate,
+              item.base_currency
+            )}
+            {this.expandLine(
+              "Tax",
+              item.tax_deducted,
               item.base_currency
             )}
           </View>

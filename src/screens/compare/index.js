@@ -132,15 +132,15 @@ export default class Compare extends React.Component {
               })}
             </View>
           </View>
-          <View style={{ width: "95%", alignSelf: "center", marginBottom: 20 }}>
-            <SignInButton
-              disabled={this.state.select ? false : true}
-              text={"Compare"}
-              navigation={this.props.navigation}
-              link={"Table"}
-            />
-          </View>
         </Content>
+        <View style={{ width: "95%", alignSelf: "center", marginBottom: 20 }}>
+          <SignInButton
+            disabled={this.state.select ? false : true}
+            text={"Compare"}
+            navigation={this.props.navigation}
+            link={"Table"}
+          />
+        </View>
       </Container>
     );
   }
