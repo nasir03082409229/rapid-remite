@@ -253,6 +253,7 @@ com/google/android/gms/internal/measurement/zzdg.class
 com/google/android/gms/internal/measurement/zzdh.class
 com/google/android/gms/internal/measurement/zzdi.class
 com/google/android/gms/internal/measurement/zzdj.class
+com/google/android/gms/location/ActivityTransition$SupportedActivityTransition.class
 com/google/android/gms/stats/CodePackage.class
 com/google/android/material/appbar/AppBarLayout$LayoutParams$ScrollFlags.class
 com/google/android/material/badge/BadgeDrawable$BadgeGravity.class
