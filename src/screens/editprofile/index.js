@@ -197,8 +197,8 @@ class EditProfile extends React.Component {
                       alignItems: "center",
                     }}
                   >
-                    <Icons.Ionicons
-                      name="ios-arrow-forward"
+                    <Icons.AntDesign
+                      name="camera"
                       size={30}
                       color="#E8041D"
                     />

@@ -30,10 +30,10 @@ export default class Head extends React.Component {
                 this.props.navigation.goBack();
               }}
             >
-              <Icon.Ionicons
-                style={{ marginLeft: 6 }}
-                name="ios-arrow-back"
-                size={20}
+              <Icon.MaterialIcons
+                style={{}}
+                name="arrow-back"
+                size={25}
                 color="red"
               />
             </Button>
@@ -58,12 +58,12 @@ export default class Head extends React.Component {
               {this.props.show_compare ? (
                 <Icons.Entypo name="cross" color="#E8041D" size={30} />
               ) : (
-                <Icons.MaterialIcons
-                  name="compare-arrows"
-                  color="#E8041D"
-                  size={30}
-                />
-              )}
+                  <Icons.MaterialIcons
+                    name="compare-arrows"
+                    color="#E8041D"
+                    size={30}
+                  />
+                )}
             </TouchableOpacity>
           )}
         </Right>
