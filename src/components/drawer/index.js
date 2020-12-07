@@ -8,6 +8,8 @@ import { fonts } from "../../theme";
 import { CommonActions } from "@react-navigation/native";
 import Share from "react-native-share";
 import Instance from "../constants/instance";
+import AsyncStorage from "@react-native-community/async-storage";
+
 // import {ToggleSwitch} from '../../components';
 
 // import ToggleSwitch from 'toggle-switch-react-native';
@@ -145,6 +147,7 @@ class Drawer extends React.Component {
           <View style={styles.buttoncon}>
             <TouchableOpacity
               onPress={() => {
+                AsyncStorage.clear();
                 this.props.navigation.dispatch(
                   CommonActions.reset({
                     index: 0,
