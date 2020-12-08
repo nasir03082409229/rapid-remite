@@ -31,6 +31,7 @@ export const getCountries = (base) => async (dispatch, getState) => {
 }
 
 export const selectFlag = (flag) => async (dispatch, getState) => {
+    console.log('flag=>', flag)
     dispatch({
         type: flags.SELECTED_FLAG,
         payload: flag

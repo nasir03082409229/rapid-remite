@@ -28,6 +28,7 @@ import { fonts, shadow } from "../../theme";
 import { Avatar, Overlay } from "react-native-elements";
 import { TextInput, ActivityIndicator } from "react-native-paper";
 import * as Animatable from "react-native-animatable";
+import CountryPicker from "react-native-country-picker-modal";
 
 import Swiper from "react-native-swiper";
 import {
@@ -56,6 +57,7 @@ class Home extends React.Component {
       country_selected = this.props.country_selected
         ? this.props.country_selected
         : this.props.countries[2];
+      console.log('country_selected=>>', country_selected)
       this.props.selectFlag(country_selected);
     }
     this.props.getNews(this);
@@ -93,7 +95,7 @@ class Home extends React.Component {
     let thirdItem = flags[1];
     flags[1] = selectedFlag;
     flags[selectedIndex] = thirdItem;
-
+    console.log('country_selected=>', country_selected);
     return (
       <View>
         <Header
@@ -111,16 +113,32 @@ class Home extends React.Component {
               }}
             >
               <TouchableOpacity
-                onPress={() =>
-                  this.setState({ showWheel: true, opened: true }, () => {
-                    this.transitedView.expand();
-                  })
-                }
+                onPress={() => {
+                  this.setState({ showWheel: true, });
+                  // this.setState({ showWheel: true, opened: true }, () => {
+                  //   this.transitedView.expand();
+                  // })
+                }}
               >
-                <Avatar
-                  source={{
-                    uri: country_selected ? country_selected.country_flag : "",
+                {this.state.showWheel && <CountryPicker
+                  withFlag
+                  withFilter
+                  ref={(ref) => (this.countryPicker = ref)}
+                  visible={this.state.showWheel}
+                  withEmoji
+                  onSelect={(country) => {
+                    this.setState({
+                      selecting_flag: country.name,
+                      showWheel: false,
+                    });
+                    this.props.selectFlag({
+                      currency_code: country.currency[0],
+                      country_flag: `http://www.geognos.com/api/en/countries/flag/${country.cca2}.png`
+                    })
                   }}
+                />}
+                <Avatar
+                  source={{ uri: country_selected ? country_selected.country_flag : "" }}
                   rounded
                   size={45}
                 />
@@ -266,6 +284,7 @@ class Home extends React.Component {
                     });
                   }}
                   selectFlag={(flag) => {
+                    console.log(flag);
                     this.hideSelector();
                     this.props.selectFlag(flag);
                     console.log("SELECT FLAG", flag);
