@@ -129,6 +129,7 @@ class Signup extends React.Component {
                     {this.state.countryPickerVisible && (
                       <CountryPicker
                         withFlag
+                        withFilter
                         ref={(ref) => (this.countryPicker = ref)}
                         visible={this.state.countryselector}
                         withEmoji
@@ -136,6 +137,7 @@ class Signup extends React.Component {
                           this.setState({
                             countrySelectedName: country.name,
                             countrySelectedFlag: country.flag,
+                            countryCca2: country.cca2,
                             countryPickerVisible: false,
                           });
                           console.log("SELECTED COUNTRY", country);
@@ -145,16 +147,17 @@ class Signup extends React.Component {
                     {!this.state.countryPickerVisible && (
                       <>
                         <View
-                          style={{ flex: 0.2, borderWidth: 1, height: "80%" }}
+                          style={{}}
                         >
-                          <Avatar source={this.state.countrySelectedFlag} />
+                          <Image source={{ uri: `http://www.geognos.com/api/en/countries/flag/${this.state.countryCca2}.png` }} style={{ height: 35, width: 40, resizeMode: 'contain' }} />
                         </View>
                         <View
                           style={{
                             flex: 1,
-                            borderWidth: 1,
+                            borderWidth: 0,
                             height: "80%",
                             justifyContent: "center",
+                            paddingHorizontal: 10
                           }}
                         >
                           <Text>{this.state.countrySelectedName}</Text>

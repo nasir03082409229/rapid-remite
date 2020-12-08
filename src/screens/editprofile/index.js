@@ -231,13 +231,16 @@ class EditProfile extends React.Component {
                     return (
                       <View style={styles.customField}>
                         <PhoneInput
-                          value={this.state.phone}
+                          // value={this.state.phone}
                           autoFormat={true}
                           onChangePhoneNumber={(number) => {
                             console.log("PHONE NUMBER", number);
                             this.setState({
                               phone: number,
                             });
+                          }}
+                          onPressConfirm={(data) => {
+                            console.log(data)
                           }}
                           ref={(ref) => {
                             this.inputPhone = ref;
