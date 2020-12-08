@@ -149,7 +149,7 @@ class Signup extends React.Component {
                         <View
                           style={{}}
                         >
-                          <Image source={{ uri: `http://www.geognos.com/api/en/countries/flag/${this.state.countryCca2}.png` }} style={{ height: 35, width: 40, resizeMode: 'contain' }} />
+                          <Image source={{ uri: `http://www.geognos.com/api/en/countries/flag/${this.state.countryCca2}.png` }} style={{ height: 35, width: 30, resizeMode: 'contain' }} />
                         </View>
                         <View
                           style={{
@@ -167,6 +167,8 @@ class Signup extends React.Component {
                   </TouchableOpacity>
                   <View style={styles.customField}>
                     <PhoneInput
+                      onPressFlag={() => { }}
+                      // onPressFlag={() => { }}
                       autoFormat={true}
                       textProps={{
                         placeholder: "Phone Number",
