@@ -521,25 +521,26 @@ class Home extends React.Component {
           <View style={[shadow.shadow, styles.ratesMainCon]}>
             {this.props.countries &&
               this.props.countries.map((country, index) => {
+                console.log('country.base_currency=>', country.base_currency)
                 if (index >= 3) {
                   return null;
                 }
                 return (
                   <View style={styles.flagnNameCon}>
                     <View
-                      style={{ flexDirection: "row", alignItems: "center" }}
+                      style={{ flexDirection: "row", alignItems: "center", }}
                     >
                       <Avatar
                         rounded
                         size={40}
                         source={{ uri: country.country_flag }}
                       />
-                      <Text style={styles.countryName}>
+                      <Text style={styles.countryName} numberOfLines={1}>
                         {country.currency_name}
                       </Text>
                     </View>
                     <Text style={styles.rates}>
-                      {country.currency_values}{" "}
+                      {Number(country.currency_values).toFixed(3)}
                       <Text style={{ fontFamily: fonts.semibold }}>
                         {country.base_currency}
                       </Text>
