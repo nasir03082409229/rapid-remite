@@ -120,12 +120,17 @@ class Home extends React.Component {
                   // })
                 }}
               >
+                {console.log('showWheelshowWheelshowWheelshowWheel=> ', this.state.showWheel)}
                 {this.state.showWheel && <CountryPicker
                   withFlag
                   withFilter
                   ref={(ref) => (this.countryPicker = ref)}
                   visible={this.state.showWheel}
                   withEmoji
+                  onClose={() => {
+                    this.setState({ showWheel: false, });
+
+                  }}
                   onSelect={(country) => {
                     this.setState({
                       selecting_flag: country.name,
