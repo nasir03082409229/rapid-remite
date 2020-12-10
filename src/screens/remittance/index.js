@@ -116,23 +116,23 @@ class Remittance extends React.Component {
                           placeholder={a.title}
                         />
                       ) : (
-                        <CountryPicker
-                          arrowdown={
-                            a.arrowdown && a.arrowdown ? a.arrowdown : false
-                          }
-                          showflag={a.type ? true : false}
-                          label={a.title}
-                          showSelected={!a.value}
-                          initialFlag={0}
-                          type={a.type ? a.type : "country"}
-                          disabled={a.disabled ? true : false}
-                          data={this.props.countries}
-                          value={a.value ? a.value : " "}
-                          onChangeCurrency={(currency) =>
-                            this.onChangeCurrency(currency, a.key)
-                          }
-                        />
-                      )}
+                          <CountryPicker
+                            arrowdown={
+                              a.arrowdown && a.arrowdown ? a.arrowdown : false
+                            }
+                            showflag={a.type ? true : false}
+                            label={a.title}
+                            showSelected={!a.value}
+                            initialFlag={0}
+                            type={a.type ? a.type : "country"}
+                            disabled={a.disabled ? true : false}
+                            data={this.props.countries}
+                            value={a.value ? a.value : " "}
+                            onChangeCurrency={(currency) =>
+                              this.onChangeCurrency(currency, a.key)
+                            }
+                          />
+                        )}
                       {a.redbar && (
                         <View style={styles.redbar}>
                           <Image

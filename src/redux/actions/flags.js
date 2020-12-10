@@ -18,7 +18,7 @@ export const getCountries = (base) => async (dispatch, getState) => {
 
     axios.get(API_URL + `liveRates/?base=${base}`).then((res) => {
         if (res.status === 200) {
-            console.log("getCountries RESPONSE", res);
+            console.log("getCountries RESPONSE liveRates/?base=", res);
             dispatch({
                 type: flags.COUNTRIES,
                 payload: res.data

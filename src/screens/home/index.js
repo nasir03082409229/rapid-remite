@@ -120,7 +120,6 @@ class Home extends React.Component {
                   // })
                 }}
               >
-                {console.log('showWheelshowWheelshowWheelshowWheel=> ', this.state.showWheel)}
                 {this.state.showWheel && <CountryPicker
                   withFlag
                   withFilter
@@ -129,8 +128,8 @@ class Home extends React.Component {
                   withEmoji
                   onClose={() => {
                     this.setState({ showWheel: false, });
-
                   }}
+                  countryCodes={['AU', 'EG', 'EU', 'GB', 'IN', 'LK', 'NP', 'PH', 'PK', 'US', 'AE',]}
                   onSelect={(country) => {
                     this.setState({
                       selecting_flag: country.name,
