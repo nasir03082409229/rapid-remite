@@ -544,13 +544,13 @@ class Home extends React.Component {
                         source={{ uri: country.country_flag }}
                       />
                       <Text style={styles.countryName}>
-                        {country.currency_name}
+                        {country.currency_name + ' '}
                       </Text>
                     </View>
                     <Text style={styles.rates}>
                       {Number(country.currency_values).toFixed(3)}
                       <Text style={{ fontFamily: fonts.semibold }}>
-                        {country.base_currency}
+                        {' ' + country.base_currency}
                       </Text>
                     </Text>
                   </View>

@@ -272,23 +272,23 @@ export default class CompareRateItem extends React.Component {
             {this.expandLine(
               "Amount Recievable",
               item.amount_recievable.toFixed(3),
-              item.country_name
+              ' ' + item.country_name
             )}
             {this.expandLine("Transfer Time", item.transfer_time, "")}
             {this.expandLine(
-              "Fee",
+              "Receiving Fee",
               item.payment_fees.toFixed(3),
-              item.base_currency
+              ' ' + item.base_currency
             )}
             {this.expandLine(
               "Rate",
               item.rate,
-              item.base_currency
+              ' ' + item.base_currency
             )}
             {this.expandLine(
-              "Tax",
+              "Service fee",
               item.tax_deducted,
-              item.base_currency
+              ' ' + item.base_currency
             )}
             {this.expandLine(
               "Location",
