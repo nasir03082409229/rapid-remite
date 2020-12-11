@@ -532,14 +532,14 @@ class Home extends React.Component {
                 return (
                   <View style={styles.flagnNameCon}>
                     <View
-                      style={{ flexDirection: "row", alignItems: "center", }}
+                      style={{ flexDirection: "row", alignItems: "center", flex: 1 }}
                     >
                       <Avatar
                         rounded
                         size={40}
                         source={{ uri: country.country_flag }}
                       />
-                      <Text style={styles.countryName} numberOfLines={1}>
+                      <Text style={styles.countryName}>
                         {country.currency_name}
                       </Text>
                     </View>

@@ -75,23 +75,23 @@ export default class AddButton extends React.Component {
     };
 
     return (
-      <View style={{ position: "absolute", alignItems: "center" }}>
+      <TouchableOpacity
+      // onPress={() => Instance.home.props.navigation.navigate("Home")}
+      >
         <TouchableOpacity
           onPress={() => Instance.home.props.navigation.navigate("Home")}
           style={[styles.button]}
         >
-          <View onPress={this.handlePress} underlayColor="#7F58FF">
-            <Animated.View style={{ transform: [{ rotate: rotation }] }}>
-              {/* <FontAwesome5 name="plus" size={24} color="#FFF" /> */}
-              <Image
-                source={logo_cut}
-                style={{ width: 40, height: 40 }}
-                resizeMode="contain"
-              />
-            </Animated.View>
-          </View>
+          <Animated.View style={{ transform: [{ rotate: rotation }] }}>
+            {/* <FontAwesome5 name="plus" size={24} color="#FFF" /> */}
+            <Image
+              source={logo_cut}
+              style={{ width: 40, height: 40 }}
+              resizeMode="contain"
+            />
+          </Animated.View>
         </TouchableOpacity>
-      </View>
+      </TouchableOpacity>
     );
   }
 }
@@ -104,13 +104,13 @@ const styles = StyleSheet.create({
     height: 72,
     borderRadius: 36,
     backgroundColor: "red",
-    position: "absolute",
-    marginTop: -65,
+    // position: "absolute",
+    marginBottom: 65,
     shadowColor: "black",
     shadowRadius: 5,
     shadowOffset: { height: 10 },
     shadowOpacity: 0.3,
-    zIndex: 1000,
+    zIndex: 9900,
     borderWidth: 3,
     borderColor: "white",
   },
