@@ -1,10 +1,11 @@
 import React from 'react';
 import Navigator from './src/navigator';
-import {} from 'react-native';
+import { } from 'react-native';
 
 import { PersistGate } from "redux-persist/integration/react";
 import { store, persistor } from "./src/redux/store";
 import { Provider } from "react-redux";
+console.disableYellowBox = true;
 
 
 import {
@@ -27,11 +28,11 @@ const customTextProps = {
 export default class App extends React.Component {
 
   // performTimeConsumingTask = async () => {
-    // return new Promise((resolve) =>
-    //   setInterval(() => {
-    //     resolve("result");
-    //   }, 2500)
-    // );
+  // return new Promise((resolve) =>
+  //   setInterval(() => {
+  //     resolve("result");
+  //   }, 2500)
+  // );
   // };
 
   async componentDidMount() {
@@ -43,12 +44,12 @@ export default class App extends React.Component {
     // }
   }
 
-  shouldComponentUpdate(){
+  shouldComponentUpdate() {
     return false;
   }
 
   render() {
-    return( 
+    return (
       <Provider store={store}>
         <PersistGate persistor={persistor}>
           <Navigator />

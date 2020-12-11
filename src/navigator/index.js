@@ -134,10 +134,13 @@ class MyTabs extends React.Component {
           component={CompareNavigation}
         />
         <Tab.Screen
+
           options={{
             showLabel: false,
             tabBarIcon: ({ color, focused }) => (
-              <AddButton navigation={this.props.navigation} />
+              <View style={{ backgroundColor: 'red' }}>
+                <AddButton navigation={this.props.navigation} />
+              </View>
             ),
           }}
           name="Home"
