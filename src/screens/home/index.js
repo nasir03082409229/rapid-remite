@@ -368,76 +368,80 @@ class Home extends React.Component {
     console.log("HOME PROPS", this.props.user);
 
     return (
-      <Container style={{ backgroundColor: "#f1f1f1", paddingBottom: 30 }}>
-        <View style={{ zIndex: 10000 }}>{this.header()}</View>
+      <SafeAreaView style={{ flex: 1 }}>
 
-        {this.state.flags && (
-          <View style={styles.topPanel}>
-            <ScrollView showsHorizontalScrollIndicator={false} horizontal>
-              {this.props.countries &&
-                this.props.countries.map((country, index) => {
-                  return (
-                    <Animatable.View
-                      key={index}
-                      animation="slideInLeft"
-                      style={{
-                        marginHorizontal: 3,
-                      }}
-                    >
-                      <TouchableOpacity
-                        onPress={() => {
-                          this.props.selectFlag(country);
-                          this.reanimateBack();
-                          // this.setState({ opened: false });
+        <Container style={{ backgroundColor: "#f1f1f1", }}>
+          <View style={{ zIndex: 10000 }}>{this.header()}</View>
+
+          {this.state.flags && (
+            <View style={styles.topPanel}>
+              <ScrollView showsHorizontalScrollIndicator={false} horizontal>
+                {this.props.countries &&
+                  this.props.countries.map((country, index) => {
+                    return (
+                      <Animatable.View
+                        key={index}
+                        animation="slideInLeft"
+                        style={{
+                          marginHorizontal: 3,
                         }}
                       >
-                        <Avatar
-                          source={{ uri: country.country_flag }}
-                          rounded
-                          size={50}
-                        />
-                      </TouchableOpacity>
-                    </Animatable.View>
-                  );
-                })}
-            </ScrollView>
-          </View>
-        )}
-        <View
-          pointerEvents={this.state.opened ? "none" : "auto"}
-          style={{ flex: 1 }}
-        >
-          <ImageBackground
-            resizeMode="cover"
-            source={BgSpiral}
-            style={styles.bgSpirals}
-          >
-            <ScrollView showsVerticalScrollIndicator={false}>
-              <ScrollView
-                bounces={false}
-                showsVerticalScrollIndicator={false}
-                contentContainerStyle={{
-                  alignItems: "center",
-                  paddingBottom: 115,
-                  zIndex: -10000,
-                  elevation: -10000,
-                }}
-              >
-                <Animated.View
-                  style={[
-                    styles.mainContainer,
-                    { transform: [{ translateY: valueY }] },
-                  ]}
-                >
-                  {this.welcomePanel()}
-                  {this.currencyRates()}
-                  {this.state.news && this.news()}
-                </Animated.View>
+                        <TouchableOpacity
+                          onPress={() => {
+                            this.props.selectFlag(country);
+                            this.reanimateBack();
+                            // this.setState({ opened: false });
+                          }}
+                        >
+                          <Avatar
+                            source={{ uri: country.country_flag }}
+                            rounded
+                            size={50}
+                          />
+                        </TouchableOpacity>
+                      </Animatable.View>
+                    );
+                  })}
               </ScrollView>
-            </ScrollView>
-          </ImageBackground>
-        </View>
-      </Container>
+            </View>
+          )}
+          <View
+            pointerEvents={this.state.opened ? "none" : "auto"}
+            style={{ flex: 1 }}
+          >
+            <ImageBackground
+              resizeMode="cover"
+              source={BgSpiral}
+              style={styles.bgSpirals}
+            >
+              <ScrollView showsVerticalScrollIndicator={false}>
+                <ScrollView
+                  bounces={false}
+                  showsVerticalScrollIndicator={false}
+                  contentContainerStyle={{
+                    alignItems: "center",
+                    paddingBottom: 115,
+                    zIndex: -10000,
+                    elevation: -10000,
+                  }}
+                >
+                  <Animated.View
+                    style={[
+                      styles.mainContainer,
+                      { transform: [{ translateY: valueY }] },
+                    ]}
+                  >
+                    {this.welcomePanel()}
+                    {this.currencyRates()}
+                    {this.state.news && this.news()}
+                  </Animated.View>
+                </ScrollView>
+              </ScrollView>
+            </ImageBackground>
+          </View>
+        </Container>
+      </SafeAreaView>
+
     );
   }
 
@@ -632,6 +636,7 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { selectFlag, getCountries } from "../../redux/actions/flags";
 import { getNews } from "../../redux/actions/news";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const mapStateToProps = (state) => {
   return {

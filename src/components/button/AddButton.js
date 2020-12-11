@@ -76,21 +76,17 @@ export default class AddButton extends React.Component {
 
     return (
       <TouchableOpacity
-      // onPress={() => Instance.home.props.navigation.navigate("Home")}
+        onPress={() => Instance.home.props.navigation.navigate("Home")}
+        style={[styles.button]}
       >
-        <TouchableOpacity
-          onPress={() => Instance.home.props.navigation.navigate("Home")}
-          style={[styles.button]}
-        >
-          <Animated.View style={{ transform: [{ rotate: rotation }] }}>
-            {/* <FontAwesome5 name="plus" size={24} color="#FFF" /> */}
-            <Image
-              source={logo_cut}
-              style={{ width: 40, height: 40 }}
-              resizeMode="contain"
-            />
-          </Animated.View>
-        </TouchableOpacity>
+        <Animated.View style={{ transform: [{ rotate: rotation }] }}>
+          {/* <FontAwesome5 name="plus" size={24} color="#FFF" /> */}
+          <Image
+            source={logo_cut}
+            style={{ width: 20, height: 25 }}
+            resizeMode="contain"
+          />
+        </Animated.View>
       </TouchableOpacity>
     );
   }
@@ -100,18 +96,18 @@ const styles = StyleSheet.create({
   button: {
     alignItems: "center",
     justifyContent: "center",
-    width: 72,
-    height: 72,
+    width: 35,
+    height: 35,
     borderRadius: 36,
-    backgroundColor: "red",
+    // backgroundColor: "black",
     // position: "absolute",
-    marginBottom: 65,
+    // marginBottom: 10,
     shadowColor: "black",
     shadowRadius: 5,
     shadowOffset: { height: 10 },
     shadowOpacity: 0.3,
     zIndex: 9900,
-    borderWidth: 3,
+    // borderWidth: 1,
     borderColor: "white",
   },
   secondaryButton: {

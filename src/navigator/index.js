@@ -202,7 +202,6 @@ class Navigator extends React.Component {
           initialRouteName={
             this.props.user ? "Home" : !this.props.slider ? "Slider" : "Welcome"
           }
-
         // initialRouteName="Contact"
         >
           <Stack.Screen
