@@ -266,6 +266,53 @@ export default class Comparison extends React.Component {
           {(partner_2.partner_name + "").toUpperCase()}
         </Text>,
       ],
+      [
+        <Text style={styles.headingsLeft}>
+          {console.log('partner_1_details.map_coordinates=>', partner_1_details.map_coordinates.length)}
+          Location
+          </Text>,
+        partner_1_details.map_coordinates.length !== 0 ? <TouchableOpacity
+          onPress={() => {
+            let mapCoords = partner_1_details.map_coordinates;
+            const scheme = Platform.select({ ios: 'maps:0,0?q=', android: 'geo:0,0?q=' });
+            const latLng = `${mapCoords[0]},${mapCoords[1]}`;
+            const url = Platform.select({
+              ios: `${scheme}@${latLng}`,
+              android: `${scheme}${latLng}`
+            });
+            Linking.openURL(url);
+          }}
+          style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+          <Icons.MaterialIcons
+            name="location-on"
+            size={30}
+            color="#E8041D"
+          />
+        </TouchableOpacity> : <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+            <Text>Not available</Text>
+          </View>,
+        partner_2_details.map_coordinates.length !== 0 ? <TouchableOpacity
+          onPress={() => {
+            let mapCoords = partner_2_details.map_coordinates;
+            const scheme = Platform.select({ ios: 'maps:0,0?q=', android: 'geo:0,0?q=' });
+            const latLng = `${mapCoords[0]},${mapCoords[1]}`;
+            const url = Platform.select({
+              ios: `${scheme}@${latLng}`,
+              android: `${scheme}${latLng}`
+            });
+            Linking.openURL(url);
+          }}
+          style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+          <Icons.MaterialIcons
+            name="location-on"
+            size={30}
+            color="#E8041D"
+          />
+        </TouchableOpacity> : <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+            <Text>Not available</Text>
+          </View>,
+
+      ],
     ];
   };
 
