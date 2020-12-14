@@ -44,7 +44,7 @@ class CompareRate extends React.Component {
     );
 
     if (found !== -1) {
-      this.state.selected_partner.splice(found, 1);
+
       this.setState({
         selected_partner: this.state.selected_partner,
       });

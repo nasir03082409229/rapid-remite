@@ -128,6 +128,7 @@ export default class Comparison extends React.Component {
   }
 
   generateRows = (partner_1, partner_2) => {
+    console.log('partner_1, partner_2=>', partner_1, partner_2)
     let partner_1_details = false;
     let partner_2_details = false;
 
@@ -268,14 +269,14 @@ export default class Comparison extends React.Component {
       ],
       [
         <Text style={styles.headingsLeft}>
-          {console.log('partner_1_details.map_coordinates=>', partner_1_details.map_coordinates.length)}
+          {console.log('partner_1_details.map_coordinates=>', partner_1.location, partner_1.location)}
           Location
           </Text>,
-        partner_1_details.map_coordinates.length !== 0 ? <TouchableOpacity
+        partner_1.location && partner_1.location['0'] ? <TouchableOpacity
           onPress={() => {
-            let mapCoords = partner_1_details.map_coordinates;
+            let location = partner_1.location;
             const scheme = Platform.select({ ios: 'maps:0,0?q=', android: 'geo:0,0?q=' });
-            const latLng = `${mapCoords[0]},${mapCoords[1]}`;
+            const latLng = `${location['0'].location.coordinates[0]},${location['0'].location.coordinates[1]}`;
             const url = Platform.select({
               ios: `${scheme}@${latLng}`,
               android: `${scheme}${latLng}`
@@ -291,11 +292,11 @@ export default class Comparison extends React.Component {
         </TouchableOpacity> : <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
             <Text>Not available</Text>
           </View>,
-        partner_2_details.map_coordinates.length !== 0 ? <TouchableOpacity
+        partner_2.location && partner_2.location['0'] ? <TouchableOpacity
           onPress={() => {
-            let mapCoords = partner_2_details.map_coordinates;
+            let location = partner_2.location;
             const scheme = Platform.select({ ios: 'maps:0,0?q=', android: 'geo:0,0?q=' });
-            const latLng = `${mapCoords[0]},${mapCoords[1]}`;
+            const latLng = `${location['0'].location.coordinates[0]},${location['0'].location.coordinates[1]}`;
             const url = Platform.select({
               ios: `${scheme}@${latLng}`,
               android: `${scheme}${latLng}`
