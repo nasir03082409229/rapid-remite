@@ -58,6 +58,7 @@ export const signIn = (instance, credentials) => async (dispatch, getState) => {
 export const signUp = (instance, credentials) => async (dispatch, getState) => {
   dispatch(instanceLoadingState(instance, true));
   console.log('credentials=>', credentials);
+  // return;
   axios
     .post(API_URL + `users/signup`, credentials)
     .then((res) => {
@@ -82,7 +83,7 @@ export const signUp = (instance, credentials) => async (dispatch, getState) => {
       dispatch(instanceLoadingState(instance, false));
     })
     .catch((err) => {
-      alert("User Email already exist.");
+      alert(err.response.data.err || err.response.data.status);
       console.log("signUp ERR", err.response);
       dispatch(instanceLoadingState(instance, false));
     });

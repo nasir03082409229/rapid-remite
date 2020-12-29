@@ -1,5 +1,5 @@
 import React from "react";
-import { ImageBackground, StyleSheet, View, Text } from "react-native";
+import { ImageBackground, StyleSheet, View, Text, TouchableOpacity, Linking } from "react-native";
 import { Container, Content } from "native-base";
 import { Header, Icons } from "../../components";
 import { BgSpiral } from "../../../assets";
@@ -28,69 +28,84 @@ class Contact extends React.Component {
               {this.state.loading ? (
                 <ActivityIndicator color="red" size={"large"} />
               ) : (
-                <>
-                  <View style={styles.mainCon}>
-                    <View style={styles.iconCon}>
-                      <Icons.FontAwesome
-                        name="building"
-                        size={20}
-                        color="#E8041D"
-                      />
-                    </View>
-                    <View style={styles.detailsCon}>
-                      <Text style={styles.textStyle}>{this.state.address}</Text>
-                    </View>
-                  </View>
-                  <View
-                    style={[
-                      styles.mainCon,
-                      {
-                        marginTop: 10,
-                        paddingBottom: 20,
-                      },
-                    ]}
-                  >
-                    <View style={styles.iconCon}>
-                      <Icons.FontAwesome
-                        name="phone"
-                        size={25}
-                        color="#E8041D"
-                      />
-                    </View>
-                    <View
-                      style={[styles.detailsCon, { justifyContent: "center" }]}
+                  <>
+                    <TouchableOpacity
+                      onPress={() => {
+                        const url = Platform.select({
+                          ios: `maps:0,0?q=${this.state.address}`,
+                          android: `geo:0,0?q=${this.state.address}`,
+                        })
+
+                        Linking.openURL(url)
+                      }}
+                      style={styles.mainCon}>
+                      <View style={styles.iconCon}>
+                        <Icons.FontAwesome
+                          name="building"
+                          size={20}
+                          color="#E8041D"
+                        />
+                      </View>
+                      <View style={styles.detailsCon}>
+                        <Text style={styles.textStyle}>{this.state.address}</Text>
+                      </View>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                      onPress={() => {
+                        Linking.openURL(`tel:${this.state.phone}`)
+                      }}
+                      style={[
+                        styles.mainCon,
+                        {
+                          marginTop: 10,
+                          paddingBottom: 20,
+                        },
+                      ]}
                     >
-                      <Text style={styles.textStyle}>
-                        {this.state.phone && this.state.phone}
-                      </Text>
-                    </View>
-                  </View>
-                  <View
-                    style={[
-                      styles.mainCon,
-                      {
-                        marginTop: 10,
-                        paddingBottom: 20,
-                      },
-                    ]}
-                  >
-                    <View style={styles.iconCon}>
-                      <Icons.Ionicons
-                        name="md-mail"
-                        size={23}
-                        color="#E8041D"
-                      />
-                    </View>
-                    <View
-                      style={[styles.detailsCon, { justifyContent: "center" }]}
+                      <View style={styles.iconCon}>
+                        <Icons.FontAwesome
+                          name="phone"
+                          size={25}
+                          color="#E8041D"
+                        />
+                      </View>
+                      <View
+                        style={[styles.detailsCon, { justifyContent: "center" }]}
+                      >
+                        <Text style={styles.textStyle}>
+                          {this.state.phone && this.state.phone}
+                        </Text>
+                      </View>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                      onPress={() => {
+                        Linking.openURL(`mailto:${this.state.email}`)
+                      }}
+                      style={[
+                        styles.mainCon,
+                        {
+                          marginTop: 10,
+                          paddingBottom: 20,
+                        },
+                      ]}
                     >
-                      <Text style={styles.textStyle}>
-                        {this.state.email && this.state.email}
-                      </Text>
-                    </View>
-                  </View>
-                </>
-              )}
+                      <View style={styles.iconCon}>
+                        <Icons.Ionicons
+                          name="md-mail"
+                          size={23}
+                          color="#E8041D"
+                        />
+                      </View>
+                      <View
+                        style={[styles.detailsCon, { justifyContent: "center" }]}
+                      >
+                        <Text style={styles.textStyle}>
+                          {this.state.email && this.state.email}
+                        </Text>
+                      </View>
+                    </TouchableOpacity>
+                  </>
+                )}
             </View>
           </Content>
         </ImageBackground>

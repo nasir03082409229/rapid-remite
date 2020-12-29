@@ -12,7 +12,6 @@ import { Formik } from "formik";
 import * as yup from "yup";
 import PhoneInput from "react-native-phone-input";
 
-import storage from "@react-native-firebase/storage";
 
 const validation = yup.object().shape({
   email: yup.string().email().required(),
@@ -24,29 +23,32 @@ class PasswordChange extends React.Component {
     super(props);
     this.state = {
       loading: false,
+      isPasswordHide: true,
       image: "",
       credentials: [
         { Name: "Email", Type: "email-address", key: "email" },
 
-        { Name: "New Password", Type: "default", key: "newpassword" },
+        { Name: "New Password", Type: "default", key: "newpassword", secure: true },
       ],
     };
   }
 
   handleSubmit = (form) => {
-    this.props.changePassword(this,form);
+    this.props.changePassword(this, form);
   };
 
 
   render() {
     console.log("EDIT PASSWORD PROPS", this.props.user);
     const { user } = this.props;
+    const { isPasswordHide } = this.state;
     return (
       <Container>
         <Header heading="Change Password" navigation={this.props.navigation} back />
         <Formik
           validationSchema={validation}
           onSubmit={(text) => {
+            console.log('ChANGE PAsSWOERNJKASBN=>', text);
             // alert("PASSWORD CHANGE");
             this.handleSubmit(text)
           }}
@@ -60,26 +62,34 @@ class PasswordChange extends React.Component {
               contentContainerStyle={{ justifyContent: "space-between" }}
             >
               <View style={styles.mainCon}>
-                {this.state.credentials.map((a) => {
+                {this.state.credentials.map((a, i) => {
                   if (a.key !== "phone") {
                     return (
-                      <TextInput
-                        secureTextEntry={a.secure && true}
-                        keyboardType={a.Type}
-                        mode="outlined"
-                        style={styles.textField}
-                        theme={{
-                          colors: {
-                            primary: "#979797",
-                          },
-                        }}
-                        selectionColor="#008784"
-                        label={a.Name}
-                        value={values[a.key]}
-                        onChangeText={handleChange(a.key)}
-                        onBlur={handleBlur(a.key)}
-                        disabled={a.key === "email"}
-                      />
+                      <View style={{ flexDirection: 'row', flex: 1, }}>
+                        <TextInput
+                          secureTextEntry={a.secure && isPasswordHide}
+                          keyboardType={a.Type}
+                          mode="outlined"
+                          style={styles.textField}
+                          theme={{
+                            colors: {
+                              primary: "#979797",
+                            },
+                          }}
+                          selectionColor="#008784"
+                          label={a.Name}
+                          value={values[a.key]}
+                          onChangeText={handleChange(a.key)}
+                          onBlur={handleBlur(a.key)}
+                          disabled={a.key === "email"}
+                        />
+                        {i == 1 && <TouchableOpacity onPress={() => this.setState({ isPasswordHide: !isPasswordHide })} style={{ width: 30, justifyContent: 'center', marginHorizontal: 5 }}>
+                          <Icons.FontAwesome
+                            name={!isPasswordHide ? "eye" : 'eye-slash'}
+                            size={30}
+                          />
+                        </TouchableOpacity>}
+                      </View>
                     );
                   }
                 })}
@@ -138,8 +148,10 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontFamily: fonts.light,
     backgroundColor: "white",
-    width: "98%",
-    marginTop: 15,
+    // width: "98%",
+    flex: 1,
+    // marginTop: 15,
+    marginVertical: 10,
     alignSelf: "center",
   },
   changePicMainCon: {
@@ -153,6 +165,8 @@ const styles = StyleSheet.create({
   },
   mainCon: {
     width: "95%",
+    paddingHorizontal: 10,
+    paddingVertical: 20,
     alignItems: "center",
     alignSelf: "center",
   },

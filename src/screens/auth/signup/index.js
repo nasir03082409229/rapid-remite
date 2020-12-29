@@ -15,7 +15,7 @@ import { TextInput } from "react-native-paper";
 import { Formik } from "formik";
 import * as yup from "yup";
 import PhoneInput from "react-native-phone-input";
-import CountryPicker from "react-native-country-picker-modal";
+import CountryPicker, { getAllCountries } from "react-native-country-picker-modal";
 import { Avatar } from "react-native-elements";
 
 const validation = yup.object().shape({
@@ -45,20 +45,28 @@ class Signup extends React.Component {
   }
 
   handleSubmit = (form) => {
+
     if (this.inputPhone.isValidNumber()) {
-      console.log("FORM SUBMIT", {
-        ...form,
-        phone: this.state.phone,
-        conformPassword: form.password,
-      });
+
       let role = [];
       role = [...role, "Individual"];
-      this.props.signUp(this, {
+      let obj = {
         ...form,
         phone: this.state.phone,
         conformPassword: form.password,
         role: role,
-      });
+        country: this.state.countrySelectedName
+      }
+      console.log('objobjobjobjobj', obj);
+      // return;
+      if (obj.password.length < 8) {
+        alert('Password must have atleast 8 characters.')
+        return;
+      } else if (obj.firstName && obj.lastName && obj.streetAddress && obj.country && obj.city && obj.address) {
+        this.props.signUp(this, obj);
+      } else {
+        alert('All feilds are required')
+      }
     } else {
       alert("Please provide correct phone number.");
     }
@@ -293,7 +301,6 @@ class Signup extends React.Component {
                       <Text
                         style={[
                           styles.bottomText,
-
                           {
                             textDecorationLine: "underline",
                             color: "#E8041D",
@@ -316,8 +323,7 @@ class Signup extends React.Component {
                     />
                   </View>
                 </View>
-              </Content>
-            )}
+              </Content>)}
           </Formik>
         </ImageBackground>
       </Container>

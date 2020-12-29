@@ -95,6 +95,10 @@ class Login extends React.Component {
     return (
       <Header style={{ backgroundColor: "white", borderBottomColor: "white" }}>
         <Left style={{ padding: 5 }}>
+        <TouchableOpacity onPress={()=> { this.props.navigation.goBack()}}>
+        <Icons.MaterialIcons name="arrow-back" size={30} />
+        </TouchableOpacity>
+
           {/* <Animated.View style={{ transform: [{ translateY: valueY }] }}>
             <TouchableOpacity
               onPress={() =>
@@ -134,7 +138,7 @@ class Login extends React.Component {
         </Body>
         <Right>
           <TouchableOpacity>
-            <Icons.Entypo name="dots-three-horizontal" color="red" size={25} />
+            {/* <Icons.Entypo name="dots-three-horizontal" color="red" size={25} /> */}
           </TouchableOpacity>
         </Right>
       </Header>

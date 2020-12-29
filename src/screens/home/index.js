@@ -95,7 +95,14 @@ class Home extends React.Component {
     let thirdItem = flags[1];
     flags[1] = selectedFlag;
     flags[selectedIndex] = thirdItem;
-    console.log('country_selected=>', country_selected);
+
+    let selectedCountry = this.props.countries.find(x => x.country_name == this.props.user.country)
+    if (!selectedCountry) {
+      selectedCountry = country_selected
+    }
+    console.log('thiselectedCountryselectedCountry=>', selectedCountry, country_selected);
+    console.log('this.props.countries=>', this.props);
+    console.log('this.props.user=>', this.props.user);
     return (
       <View>
         <Header
@@ -130,6 +137,7 @@ class Home extends React.Component {
                     this.setState({ showWheel: false, });
                   }}
                   countryCodes={['AU', 'EG', 'EU', 'GB', 'IN', 'LK', 'NP', 'PH', 'PK', 'US', 'AE',]}
+
                   onSelect={(country) => {
                     this.setState({
                       selecting_flag: country.name,
@@ -142,7 +150,7 @@ class Home extends React.Component {
                   }}
                 />}
                 <Avatar
-                  source={{ uri: country_selected ? country_selected.country_flag : "" }}
+                  source={{ uri: selectedCountry ? selectedCountry.country_flag : "" }}
                   rounded
                   size={45}
                 />
@@ -705,6 +713,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#252525",
     marginLeft: 20,
+    flex: 1
   },
   flagnNameCon: {
     borderColor: "lightgray",

@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet, Text, TouchableOpacity } from "react-native";
+import { View, StyleSheet, Text, TouchableOpacity, Image } from "react-native";
 import { Container, Content } from "native-base";
 import { Header, SignInButton, Icons } from "../../components";
 import { fonts } from "../../theme";
@@ -11,6 +11,7 @@ import ImagePicker from "react-native-image-picker";
 import { Formik } from "formik";
 import * as yup from "yup";
 import PhoneInput from "react-native-phone-input";
+import CountryPicker, { getAllCountries } from "react-native-country-picker-modal";
 
 import storage from "@react-native-firebase/storage";
 
@@ -32,6 +33,10 @@ class EditProfile extends React.Component {
     this.state = {
       loading: false,
       image: "",
+      countryCca2: undefined,
+      user: {
+
+      },
       credentials: [
         { Name: "First Name", Type: "default", key: "firstName" },
         { Name: "Last Name", Type: "default", key: "lastName" },
@@ -51,7 +56,9 @@ class EditProfile extends React.Component {
         ...form,
         phone: this.state.phone,
         image: this.state.image,
+        ...this.state.user
       });
+      return
       // let role = [];
       // role = [...role, "Individual"];
       this.props.updateUser(this, {
@@ -105,8 +112,30 @@ class EditProfile extends React.Component {
     });
   };
 
+
+
   componentWillMount() {
     const { user } = this.props;
+    this.setState({ user: user })
+
+    getAllCountries().then((countryList) => {
+      let country = countryList.find(x => x.name == user.country.trim())
+      console.log("render -> country COUNTRIES", country, user.country)
+      this.setState({
+        countrySelectedName: country.name,
+        countrySelectedFlag: country.flag,
+        countryCca2: country.cca2,
+        countryPickerVisible: false,
+      });
+    })
+    // let selectedCountry
+    // if (countries) {
+    //   selectedCountry = countries.find(x => {
+    //     return x.country_name.trim() === this.state.user.country.trim()
+    //   })
+    //   console.log('selectedCountry', selectedCountry)
+    // }
+
 
     if (user.image) {
       this.state.image = user.image;
@@ -116,12 +145,22 @@ class EditProfile extends React.Component {
     }
   }
 
+
+  onChangeValue = (key, value) => {
+    let user = this.state.user;
+    user[key] = value;
+    this.setState({
+      user: user,
+    });
+  }
   render() {
+    // console.log("PHONE=>", this.);
     console.log("EDIT PROFILE PROPS", this.props.user);
-    const { user } = this.props;
+    const { user, countries } = this.props;
+
 
     if (user.phone) {
-      this.state.phone = "+" + user.phone;
+      // this.state.phone = "+" + user.phone;
     }
     return (
       <Container>
@@ -205,6 +244,55 @@ class EditProfile extends React.Component {
                   </View>
                 </TouchableOpacity>
                 {this.state.credentials.map((a) => {
+                  if (a.key == 'country') {
+                    return <TouchableOpacity
+                      onPress={() =>
+                        this.setState({
+                          countryPickerVisible: true,
+                          countryselector: true,
+                        })
+                      }
+                      style={[styles.customField, { flexDirection: "row" }]}
+                    >
+                      {this.state.countryPickerVisible && (
+                        <CountryPicker
+                          withFlag
+                          withFilter
+                          ref={(ref) => (this.countryPicker = ref)}
+                          visible={this.state.countryselector}
+                          withEmoji
+                          onSelect={(country) => {
+                            this.onChangeValue('country', country.name)
+                            this.setState({
+                              countrySelectedName: country.name,
+                              countrySelectedFlag: country.flag,
+                              countryCca2: country.cca2,
+                              countryPickerVisible: false,
+                            });
+                            console.log("SELECTED COUNTRY", country);
+                          }}
+                        />
+                      )}
+                      {!this.state.countryPickerVisible && (
+                        <>
+                          <View style={{}}>
+                            <Image source={{ uri: `http://www.geognos.com/api/en/countries/flag/${this.state.countryCca2}.png` }} style={{ height: 35, width: 30, resizeMode: 'contain' }} />
+                          </View>
+                          <View
+                            style={{
+                              flex: 1,
+                              borderWidth: 0,
+                              height: "80%",
+                              justifyContent: "center",
+                              paddingHorizontal: 10
+                            }}
+                          >
+                            <Text>{this.state.countrySelectedName}</Text>
+                          </View>
+                        </>
+                      )}
+                    </TouchableOpacity>
+                  }
                   if (a.key !== "phone") {
                     return (
                       <TextInput
@@ -219,8 +307,9 @@ class EditProfile extends React.Component {
                         }}
                         selectionColor="#008784"
                         label={a.Name}
-                        value={values[a.key]}
-                        onChangeText={handleChange(a.key)}
+                        value={this.state.user[a.key]}
+                        onChangeText={(text) => this.onChangeValue(a.key, text)}
+                        // onChangeText={handleChange(a.key)}
                         onBlur={handleBlur(a.key)}
                         disabled={a.key === "email"}
                       />
@@ -231,12 +320,17 @@ class EditProfile extends React.Component {
                     return (
                       <View style={styles.customField}>
                         <PhoneInput
-                          // value={this.state.phone}
+                          value={'+' + this.state.user['phone'].toString()}
                           autoFormat={true}
                           onChangePhoneNumber={(number) => {
+                            if (number[0] == '+') {
+                              number = number.slice(1)
+                            }
                             console.log("PHONE NUMBER", number);
+                            let user = this.state.user;
+                            user['phone'] = number;
                             this.setState({
-                              phone: number,
+                              user: user,
                             });
                           }}
                           onPressConfirm={(data) => {
@@ -276,6 +370,8 @@ import { getNews } from "../../redux/actions/news";
 const mapStateToProps = (state) => {
   return {
     user: state.auth.user,
+    countries: state.auth.countries,
+
   };
 };
 const mapActionsToProps = (dispatch) => ({

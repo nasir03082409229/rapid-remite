@@ -24,6 +24,9 @@ const store = createStore(
   initialState,
   compose(applyMiddleware(...middleware))
 );
+store.subscribe(() => {
+  console.log("STORE====>", store.getState());
+})
 
 const persistor = persistStore(store);
 
