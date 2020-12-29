@@ -35,7 +35,8 @@ class CompareRate extends React.Component {
     };
   }
   startCompare = () => {
-    this.setState({ compare: !this.state.compare });
+
+    this.setState({ compare: !this.state.compare, selected_partner: [] });
   };
 
   selectPartner = (partner) => {
@@ -49,18 +50,15 @@ class CompareRate extends React.Component {
       return;
     }
     if (found !== -1) {
-
       this.setState({
         selected_partner: this.state.selected_partner,
       });
       return;
     }
-
     if (this.state.selected_partner.length === 2) {
       alert("You can not add more than two partners");
       return;
     }
-
     this.state.selected_partner.push(partner);
 
     this.setState({

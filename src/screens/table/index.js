@@ -187,18 +187,18 @@ export default class Comparison extends React.Component {
       <View style={{ flexDirection: 'row', flex: 1, justifyContent: 'space-around', alignItems: 'center' }}>
         {(partner_1_details.android_url && partner_1_details.android_url.indexOf('http') !== -1) ? <TouchableOpacity onPress={() => Linking.openURL(partner_1_details.android_url)}>
           <Image style={{ height: 37, width: 31, resizeMode: 'contain' }} source={{ uri: "https://rapidremituser.firebaseapp.com/static/media/play-playstore-icon.fa8ca871.png" }} />
-        </TouchableOpacity> : <Text>Not available</Text>}
+        </TouchableOpacity> : <Text style={{ textAlign: 'center', fontSize: 10 }}>{`Not\navailable`}</Text>}
         {(partner_1_details.ios_url && partner_1_details.ios_url.indexOf('http') !== -1) ? <TouchableOpacity onPress={() => Linking.openURL(partner_1_details.ios_url)}>
           <Image style={{ height: 37, width: 31, resizeMode: 'contain' }} source={{ uri: "https://rapidremituser.firebaseapp.com/static/media/iOS-Apple-icon.37e3402c.png" }} />
-        </TouchableOpacity> : <Text>Not available</Text>}
+        </TouchableOpacity> : <Text style={{ textAlign: 'center', fontSize: 10 }}>{`Not\navailable`}</Text>}
       </View>,
       <View style={{ flexDirection: 'row', flex: 1, justifyContent: 'space-around', alignItems: 'center' }}>
         {(partner_2_details.android_url && partner_2_details.android_url.indexOf('http') !== -1) ? <TouchableOpacity onPress={() => Linking.openURL(partner_2_details.android_url)}>
           <Image style={{ height: 37, width: 31, resizeMode: 'contain' }} source={{ uri: "https://rapidremituser.firebaseapp.com/static/media/play-playstore-icon.fa8ca871.png" }} />
-        </TouchableOpacity> : <Text>Not available</Text>}
+        </TouchableOpacity> : <Text style={{ textAlign: 'center', fontSize: 10 }}>{`Not\navailable`}</Text>}
         {(partner_2_details.ios_url && partner_2_details.ios_url.indexOf('http') !== -1) ? <TouchableOpacity onPress={() => Linking.openURL(partner_2_details.ios_url)}>
           <Image style={{ height: 37, width: 31, resizeMode: 'contain' }} source={{ uri: "https://rapidremituser.firebaseapp.com/static/media/iOS-Apple-icon.37e3402c.png" }} />
-        </TouchableOpacity> : <Text>Not available</Text>}
+        </TouchableOpacity> : <Text style={{ textAlign: 'center', fontSize: 10 }}>{`Not\navailable`}</Text>}
       </View>],
       [
         <Text style={styles.headingsLeft}>Key Feature</Text>,
