@@ -58,7 +58,7 @@ class EditProfile extends React.Component {
         image: this.state.image,
         ...this.state.user
       });
-      return
+      // return
       // let role = [];
       // role = [...role, "Individual"];
       this.props.updateUser(this, {
