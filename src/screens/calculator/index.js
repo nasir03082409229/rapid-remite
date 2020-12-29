@@ -89,8 +89,11 @@ class Calculator extends React.Component {
             </View>
             <View style={[styles.calculatorMainCon, shadow.shadow]}>
               <AnimatedField
-                changeAmount={(amount) =>
-                  this.changeAmount(amount, "from_amount")
+                changeAmount={(amount) => {
+                  if (amount) {
+                    this.changeAmount(amount, "from_amount")
+                  }
+                }
                 }
                 onChangeCurrency={(currency) =>
                   this.changeCurrency(currency, "from_currency")
@@ -133,7 +136,7 @@ class Calculator extends React.Component {
                       {this.state.base}{" "}
                     </Text>
                     <Text>
-                      = {this.state.value.toFixed(3)}{" "}
+                      = {this.state.value ? this.state.value.toFixed(3) : ''}{" "}
                       <Text style={{ fontFamily: fonts.medium }}>
                         {this.state.to}{" "}
                       </Text>
@@ -167,7 +170,7 @@ class Calculator extends React.Component {
                   {"1.00 " +
                     this.state.base +
                     " = " +
-                    this.state.rate.toFixed(3)}
+                    this.state.rate ? this.state.rate.toFixed(3) : ''}
                 </Text>
               )}
             </View>
