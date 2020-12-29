@@ -42,7 +42,12 @@ class CompareRate extends React.Component {
     const found = this.state.selected_partner.findIndex(
       (element) => element.partner_id === partner.partner_id
     );
-
+    console.log('foundfound=>', found)
+    if (found > -1) {
+      this.state.selected_partner.splice(found, 1)
+      this.setState({ selected_partner: this.state.selected_partner })
+      return;
+    }
     if (found !== -1) {
 
       this.setState({

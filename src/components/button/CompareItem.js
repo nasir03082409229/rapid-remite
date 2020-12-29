@@ -79,9 +79,7 @@ export default class CompareRateItem extends React.Component {
 
   renderFrontface() {
     return (
-      <View
-        style={{ width: "100%", height: 0, backgroundColor: "purple" }}
-      ></View>
+      <View style={{ width: "100%", height: 0, backgroundColor: "purple" }}></View>
     );
   }
 
