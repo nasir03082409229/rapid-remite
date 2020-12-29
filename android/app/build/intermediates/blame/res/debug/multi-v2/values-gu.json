@@ -4,7 +4,7 @@
             "outputFile": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
             "map": [
                 {
-                    "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/values-gu/values.xml",
+                    "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/values-gu/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/c1f649247a033a796ac80883ed39b710/jetified-play-services-basement-17.0.0/res/values-gu/values.xml",
+                    "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/113b8adad9306ff9d6946a48abb906c8/jetified-play-services-basement-17.1.1/res/values-gu/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
