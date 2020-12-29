@@ -124,6 +124,7 @@ class Calculator extends React.Component {
                     top: 30,
                     justifyContent: "center",
                     alignItems: "center",
+                    flexDirection: 'row'
                   }}
                 >
                   <Text style={{ fontFamily: fonts.light, fontSize: 18 }}>
