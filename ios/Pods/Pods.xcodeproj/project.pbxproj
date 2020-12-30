@@ -548,6 +548,7 @@
 		2C8CAE0BC8F1011C7F8C6AF8B130E70F /* RCTAlertManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A23BE263D8BC9A6804F650970DBA1484 /* RCTAlertManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2CA1B20E766C3765491F4E2A5ACB407C /* RCTInputAccessoryShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E34CAABF24675957D2F0672A936F92 /* RCTInputAccessoryShadowView.m */; };
 		2CDD3A95F828F1080A85933195807FAF /* lossless_common.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAE0926DEF4F633A6A0579F20CF01E1 /* lossless_common.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CFCB4CF85B49C6B63BB759EA9D76575 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2820769CA1DA60BA6C8DCF12F062C47F /* GCDAsyncSocket.m */; };
 		2D191F4D3FC59CA211A5638E6DFFB19E /* UIColor+SDHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 72935BA060B60499B42B39D85236A9BF /* UIColor+SDHexString.m */; };
 		2D2FE23439E21B51B985FE0E6BD9A79A /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C8BA5CBC4DEAD13C7A6227159E9A52 /* UIImage+WebP.m */; };
 		2D680142502F257A307C4140EE322C43 /* RNSScreenContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED2ADD0DE5EA92C2E9D049E0EFC6F8F /* RNSScreenContainer.m */; };
@@ -562,6 +563,7 @@
 		2EAF41297C07BA08EDDBED38825EFD51 /* ApplyTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 433F82DE85AA452394310B013C6F442C /* ApplyTuple.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2EB201AFA7B7067271DF082293CF9112 /* Format.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB56E2FBD85C1643A3614986ADAF38B3 /* Format.cpp */; settings = {COMPILER_FLAGS = "-DFOLLY_HAVE_PTHREAD=1 -DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_HAVE_LIBGFLAGS=0 -DFOLLY_HAVE_LIBJEMALLOC=0 -DFOLLY_HAVE_PREADV=0 -DFOLLY_HAVE_PWRITEV=0 -DFOLLY_HAVE_TFO=0 -DFOLLY_USE_SYMBOLIZER=0\n    -frtti\n    -fexceptions\n    -std=c++14\n    -Wno-error\n    -Wno-unused-local-typedefs\n    -Wno-unused-variable\n    -Wno-sign-compare\n    -Wno-comment\n    -Wno-return-type\n    -Wno-global-constructors"; }; };
 		2EBF6F592ED5BD504095A176DC3D6E05 /* RCTUITextView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0ABF8A25A51489A996C9C7B2FC7A5AB /* RCTUITextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2EF451A980660F39F52CFE588EEC8F68 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B4472410EAA632989295BD45B121D4 /* CocoaAsyncSocket-dummy.m */; };
 		2EF9EB1A3A802E6EC904F10E5A43380C /* RNSVGFontData.h in Headers */ = {isa = PBXBuildFile; fileRef = ED363B98AE622B9400320E437B90223A /* RNSVGFontData.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2F0068B72CAE3F9C604A076092D569F9 /* alpha_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = B1A2DC20C8E9839C0D794B7E1172A6BA /* alpha_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
 		2F22F70334401E78B408F5DC243BDDCF /* RCTUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF13194C2D9D14CAC1ADF2F9759192 /* RCTUIManager.m */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
@@ -694,7 +696,6 @@
 		39DF61870F2545B4C8FB79414E0B0792 /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B63E236D0559E57E583D7317EBB827A /* pb_common.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		39F8B48ACB4F25C361745D13D7538C99 /* Foreach-inl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B95BAE4CBAD94A56530622046EEB03A /* Foreach-inl.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3A04BB3B2F9ADC8D26F8EB3B6FDEC54D /* dec_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = B15F12808316CAFF7C7BC9081163D90C /* dec_msa.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
-		3A25A0B031EDD3B74BB39D3AD8967E3D /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DBABE5318AD2617038A2FE168833F304 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3A366E0112A812204DAD3AA497EAD09D /* Subscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8F1A2B7A9AF337F86AA3FC9F87E1D6 /* Subscription.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3A42B7CBB1077B1681D8BAA47FD729F5 /* EventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A489E108313DEC6B2072CC8F33CC5816 /* EventHandler.cpp */; settings = {COMPILER_FLAGS = "-DFOLLY_HAVE_PTHREAD=1 -DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_HAVE_LIBGFLAGS=0 -DFOLLY_HAVE_LIBJEMALLOC=0 -DFOLLY_HAVE_PREADV=0 -DFOLLY_HAVE_PWRITEV=0 -DFOLLY_HAVE_TFO=0 -DFOLLY_USE_SYMBOLIZER=0\n    -frtti\n    -fexceptions\n    -std=c++14\n    -Wno-error\n    -Wno-unused-local-typedefs\n    -Wno-unused-variable\n    -Wno-sign-compare\n    -Wno-comment\n    -Wno-return-type\n    -Wno-global-constructors"; }; };
 		3A4C3EE0488AD039F0D67AFC21B81E86 /* GULHeartbeatDateStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 480D36543E57F4A805B78CA1F77B1945 /* GULHeartbeatDateStorage.m */; };
@@ -862,7 +863,6 @@
 		4AE98AD4B53A9A1B12D4D216D057C0B7 /* FIRStorageObservableTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 9506F981E5D47E6193C8A5B66A4048FE /* FIRStorageObservableTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4B1D518ABC58216C69FEC5A8A49499C8 /* RCTLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = E55E3CC05075BB1A25A1074B5C3AA846 /* RCTLog.mm */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
 		4B3878A2749CE6AC857282110E18925A /* FirebaseStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E01E01FB1DCCA3EB60034406D172EE63 /* FirebaseStorage-dummy.m */; };
-		4B3964B71F74D3D48482B3D853DA94E5 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2820769CA1DA60BA6C8DCF12F062C47F /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4B56B8F06FC20A01A4DB96EC54521E09 /* RNSVGPainter.m in Sources */ = {isa = PBXBuildFile; fileRef = E088C80311EAE0125DB8730E21A2E849 /* RNSVGPainter.m */; };
 		4B60FEDDAD6886AD1706C2B05D97E7AF /* RCTI18nUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8442E2F8A39878A4DCF976F3EC3726F6 /* RCTI18nUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4B68C390C355778468912000A6800D26 /* JSModulesUnbundle.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7D07897ECA055321732D0F7F100374 /* JSModulesUnbundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -1052,6 +1052,7 @@
 		5DA4697BAFAFAA6BFEA13B36B76B57AE /* Libgen.h in Headers */ = {isa = PBXBuildFile; fileRef = EE48E481E93FCB2C269705C0DC3D4634 /* Libgen.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5DCE172EC75208EC2A3189C915EBF678 /* EventBaseBackendBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F62561DB9DB194893E3879F76DFFDE2A /* EventBaseBackendBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5DD60F4B2A566FC93D9C1D53A3E8FCCB /* RCTPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E66B3B057DD7310D8888DAF703F0C52D /* RCTPickerManager.m */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
+		5E2500118A397A383D4018C3DF7F0583 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DBABE5318AD2617038A2FE168833F304 /* GCDAsyncUdpSocket.m */; };
 		5E6DAD89C303EBDB714497F7BCE33673 /* FIRComponentContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 356FE804B30D51C26F770CE3A8F8B208 /* FIRComponentContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5EC45A2B59DDBB16F4B04CE7A4614E7A /* FBLPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD9A945C6D9A29A6800B4D5E877DCF5 /* FBLPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5EC68AC4CF4EA48990F8D1086394208B /* F14Mask.h in Headers */ = {isa = PBXBuildFile; fileRef = CDCF1F2787E4FB085926DB58CF56E72C /* F14Mask.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -2583,7 +2584,6 @@
 		F9EBBC52496FDCAB2D57DD4FFDB871AA /* RNSVGNodeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB52B0669D11E84245595D9F6E9D929 /* RNSVGNodeManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F9F8DEF012D37114ADE82F94DA0B794C /* RCTHTTPRequestHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = C39F0F7B10938727F4BFE05ADBC6BC10 /* RCTHTTPRequestHandler.mm */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-nullability-completeness"; }; };
 		FA4153C149EF3F1DDED6E4846513C67F /* ThriftStreamShim.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8BB1B9CB55CBA122975CAC7025FC2C /* ThriftStreamShim.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FA4347EF4A800F16CE57D834D4859D8D /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B4472410EAA632989295BD45B121D4 /* CocoaAsyncSocket-dummy.m */; };
 		FA6CDEB2A292F61C8FA52F4239629B79 /* RNVectorIconsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA974085167CE88D55182789359B4763 /* RNVectorIconsManager.m */; };
 		FAC68A2364FC07AD1B7A518A0E30BB65 /* JSDeltaBundleClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C43311BD53437646F331CE1889FB3DB /* JSDeltaBundleClient.cpp */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
 		FAD63D084989BA864BD0D10711D45615 /* RCTProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = D123700B57E613D3F5259D2848AAAFA8 /* RCTProfile.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -15500,7 +15500,7 @@
 			buildConfigurationList = BF535641E00BECC6FFAF53CFB25A8755 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
 			buildPhases = (
 				83268A4608982FCFF93FA48DCC883251 /* Headers */,
-				A6B708BDDA38EEF515F2383D1BB1E85A /* Sources */,
+				EE677DEB0818C5AF1142B26C6F07EB02 /* Sources */,
 				20BA100C85EA53F9E47A90738553B93B /* Frameworks */,
 			);
 			buildRules = (
@@ -17486,16 +17486,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6B708BDDA38EEF515F2383D1BB1E85A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA4347EF4A800F16CE57D834D4859D8D /* CocoaAsyncSocket-dummy.m in Sources */,
-				4B3964B71F74D3D48482B3D853DA94E5 /* GCDAsyncSocket.m in Sources */,
-				3A25A0B031EDD3B74BB39D3AD8967E3D /* GCDAsyncUdpSocket.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BC3714ABDF8F36F6986C057512938172 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -17846,6 +17836,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F1560A6141A1CD7668CA1C361A74BD /* Pods-a_rapidremit-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE677DEB0818C5AF1142B26C6F07EB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF451A980660F39F52CFE588EEC8F68 /* CocoaAsyncSocket-dummy.m in Sources */,
+				2CFCB4CF85B49C6B63BB759EA9D76575 /* GCDAsyncSocket.m in Sources */,
+				5E2500118A397A383D4018C3DF7F0583 /* GCDAsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -21212,6 +21212,31 @@
 			};
 			name = Debug;
 		};
+		7539930807244CDC08478F60EA1B2ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DAFB43523B06755C2E2D1E60CBFC7F8 /* CocoaAsyncSocket.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		76D2F06266D9D6E83EBDF37C70187524 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A73C94097D741915B55CD5CFD93898A0 /* SDWebImageWebPCoder.debug.xcconfig */;
@@ -21459,6 +21484,30 @@
 			};
 			name = Release;
 		};
+		82EFC84FCF8830EC94A951450F1D64C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C247EA2EE6261DB00B151D4CA3B3F1 /* CocoaAsyncSocket.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		853AE44C76ED5D64D42458FDC75D4695 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FAAA5CC6F697D94D93464D2C5FA7485 /* RNCMaskedView.debug.xcconfig */;
@@ -21632,30 +21681,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		91163032528A92C2D0A5FA42EA05675B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0C247EA2EE6261DB00B151D4CA3B3F1 /* CocoaAsyncSocket.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
-				PRODUCT_NAME = CocoaAsyncSocket;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		913B1A9C296DC113DDEDC84E5886972F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -22198,31 +22223,6 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = peertalk;
 				PRODUCT_NAME = "Flipper-PeerTalk";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B4D7C3B6E4BDB99FE002C794322F896F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DAFB43523B06755C2E2D1E60CBFC7F8 /* CocoaAsyncSocket.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
-				PRODUCT_NAME = CocoaAsyncSocket;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -23246,8 +23246,8 @@
 		BF535641E00BECC6FFAF53CFB25A8755 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91163032528A92C2D0A5FA42EA05675B /* Debug */,
-				B4D7C3B6E4BDB99FE002C794322F896F /* Release */,
+				82EFC84FCF8830EC94A951450F1D64C4 /* Debug */,
+				7539930807244CDC08478F60EA1B2ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
