@@ -9,7 +9,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/anim_catalyst_fade_out.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/fb0921f589133b88feefd103f0b19c43/jetified-react-native-0.62.2/res/anim/catalyst_fade_out.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d246971a83f874b2dda487e482ea65ee/jetified-react-native-0.62.2/res/anim/catalyst_fade_out.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -137,7 +137,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_light_focused.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_tj.png.flat",
@@ -205,7 +205,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_disabled.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_disabled.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/layout_text_view_with_theme_line_height.xml.flat",
@@ -213,7 +213,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -221,7 +221,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/layout_abc_tooltip.xml.flat",
@@ -333,7 +333,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_serviceprovider_moneygram.png.flat",
@@ -409,7 +409,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cf.png.flat",
@@ -417,7 +417,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -461,7 +461,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-hdpi-v4/common_full_open_on_phone.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-hdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bz.png.flat",
@@ -681,7 +681,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/anim_catalyst_slide_down.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/fb0921f589133b88feefd103f0b19c43/jetified-react-native-0.62.2/res/anim/catalyst_slide_down.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d246971a83f874b2dda487e482ea65ee/jetified-react-native-0.62.2/res/anim/catalyst_slide_down.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/color-v23_abc_btn_colored_borderless_text_material.xml.flat",
@@ -705,7 +705,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/anim_catalyst_slide_up.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/fb0921f589133b88feefd103f0b19c43/jetified-react-native-0.62.2/res/anim/catalyst_slide_up.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d246971a83f874b2dda487e482ea65ee/jetified-react-native-0.62.2/res/anim/catalyst_slide_up.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/animator_mtrl_btn_unelevated_state_list_anim.xml.flat",
@@ -873,7 +873,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/anim_catalyst_push_up_out.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/fb0921f589133b88feefd103f0b19c43/jetified-react-native-0.62.2/res/anim/catalyst_push_up_out.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d246971a83f874b2dda487e482ea65ee/jetified-react-native-0.62.2/res/anim/catalyst_push_up_out.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -909,7 +909,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/anim_catalyst_fade_in.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/fb0921f589133b88feefd103f0b19c43/jetified-react-native-0.62.2/res/anim/catalyst_fade_in.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d246971a83f874b2dda487e482ea65ee/jetified-react-native-0.62.2/res/anim/catalyst_fade_in.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -917,7 +917,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -949,7 +949,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -1117,7 +1117,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_redbox_top_border_background.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/fb0921f589133b88feefd103f0b19c43/jetified-react-native-0.62.2/res/drawable/redbox_top_border_background.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d246971a83f874b2dda487e482ea65ee/jetified-react-native-0.62.2/res/drawable/redbox_top_border_background.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cg.png.flat",
@@ -1161,7 +1161,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_light.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_light.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/color_abc_background_cache_hint_selector_material_light.xml.flat",
@@ -1493,7 +1493,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/layout_dev_loading_view.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/fb0921f589133b88feefd103f0b19c43/jetified-react-native-0.62.2/res/layout/dev_loading_view.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d246971a83f874b2dda487e482ea65ee/jetified-react-native-0.62.2/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/layout_mtrl_alert_select_dialog_item.xml.flat",
@@ -1541,11 +1541,11 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_km.png.flat",
@@ -1605,7 +1605,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/layout_abc_list_menu_item_icon.xml.flat",
@@ -1697,7 +1697,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -1721,7 +1721,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_disabled.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
@@ -1789,7 +1789,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/anim_catalyst_push_up_in.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/fb0921f589133b88feefd103f0b19c43/jetified-react-native-0.62.2/res/anim/catalyst_push_up_in.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d246971a83f874b2dda487e482ea65ee/jetified-react-native-0.62.2/res/anim/catalyst_push_up_in.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
@@ -1881,7 +1881,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/color_test_mtrl_calendar_day.xml.flat",
@@ -1889,7 +1889,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/anim_fragment_close_enter.xml.flat",
@@ -1897,7 +1897,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-hdpi-v4/googleg_standard_color_18.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-hdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ie.png.flat",
@@ -2125,7 +2125,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -2265,7 +2265,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/layout_fps_view.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/fb0921f589133b88feefd103f0b19c43/jetified-react-native-0.62.2/res/layout/fps_view.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d246971a83f874b2dda487e482ea65ee/jetified-react-native-0.62.2/res/layout/fps_view.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_kn.png.flat",
@@ -2337,7 +2337,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_abc_ic_search_api_material.xml.flat",
@@ -2357,7 +2357,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_btn_checkbox_unchecked_mtrl.xml.flat",
@@ -2369,7 +2369,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -2409,7 +2409,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/layout_mtrl_layout_snackbar.xml.flat",
@@ -2464,8 +2464,12 @@
         "source": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativephoneinput_lib_resources_flags_images_tw.png"
     },
     {
+        "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-watch-v20_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/bc361383f0d7b1b6dd3a3eea0737de7d/play-services-auth-19.0.0/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    },
+    {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativecountrypickermodal_lib_assets_images_close.png.flat",
@@ -2521,7 +2525,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/layout_redbox_item_frame.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/fb0921f589133b88feefd103f0b19c43/jetified-react-native-0.62.2/res/layout/redbox_item_frame.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d246971a83f874b2dda487e482ea65ee/jetified-react-native-0.62.2/res/layout/redbox_item_frame.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -2541,7 +2545,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_hr.png.flat",
@@ -2585,11 +2589,11 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/layout_redbox_item_title.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/fb0921f589133b88feefd103f0b19c43/jetified-react-native-0.62.2/res/layout/redbox_item_title.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d246971a83f874b2dda487e482ea65ee/jetified-react-native-0.62.2/res/layout/redbox_item_title.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_light_normal.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/animator_mtrl_extended_fab_change_size_motion_spec.xml.flat",
@@ -2630,6 +2634,10 @@
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ag.png.flat",
         "source": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativephoneinput_lib_resources_flags_images_ag.png"
+    },
+    {
+        "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-watch-v20_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/bc361383f0d7b1b6dd3a3eea0737de7d/play-services-auth-19.0.0/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -2889,7 +2897,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_lt.png.flat",
@@ -2905,7 +2913,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_et.png.flat",
@@ -3001,7 +3009,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/color_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
@@ -3057,7 +3065,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bj.png.flat",
@@ -3121,7 +3129,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -3257,7 +3265,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/layout_redbox_view.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/fb0921f589133b88feefd103f0b19c43/jetified-react-native-0.62.2/res/layout/redbox_view.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d246971a83f874b2dda487e482ea65ee/jetified-react-native-0.62.2/res/layout/redbox_view.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_design_password_eye.xml.flat",
@@ -3337,7 +3345,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/color_common_google_signin_btn_text_light.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
@@ -3389,7 +3397,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_eg.png.flat",
@@ -3441,7 +3449,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/xml_rn_dev_preferences.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/fb0921f589133b88feefd103f0b19c43/jetified-react-native-0.62.2/res/xml/rn_dev_preferences.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/d246971a83f874b2dda487e482ea65ee/jetified-react-native-0.62.2/res/xml/rn_dev_preferences.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontisto.json.flat",
@@ -3537,7 +3545,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_abc_dialog_material_background.xml.flat",
@@ -3588,6 +3596,10 @@
         "source": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativephoneinput_lib_resources_flags_images_io.png"
     },
     {
+        "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/bc361383f0d7b1b6dd3a3eea0737de7d/play-services-auth-19.0.0/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/layout_mtrl_calendar_vertical.xml.flat",
         "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/7c9142c17550c92dab314dac75f37ca0/material-1.1.0/res/layout/mtrl_calendar_vertical.xml"
     },
@@ -3601,7 +3613,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/raw_node_modules_entities_maps_entities.json.flat",
@@ -3645,7 +3657,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_in.png.flat",
@@ -3653,7 +3665,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-mdpi-v4/googleg_standard_color_18.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-mdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_md.png.flat",
@@ -3665,7 +3677,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-v21_abc_list_divider_material.xml.flat",
@@ -3681,7 +3693,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/color_common_google_signin_btn_tint.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/color/common_google_signin_btn_tint.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/anim_mtrl_bottom_sheet_slide_out.xml.flat",
@@ -3829,7 +3841,7 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_py.png.flat",
@@ -3929,11 +3941,11 @@
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_light.xml"
+        "source": "/Users/nasir03082409229/.gradle/caches/transforms-2/files-2.1/2bf143a8a6d9cc9b01c998d0d6ca7843/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/res/merged/release/anim_fragment_open_enter.xml.flat",

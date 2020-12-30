@@ -1,4 +1,4 @@
-#Fri Dec 11 17:10:01 PKT 2020
+#Wed Dec 30 11:49:43 PKT 2020
 base.0=/Users/nasir03082409229/Desktop/Nasir/ShoaibNoor/RapidRemite_A_react_Native-master/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
 path.1=classes2.dex
 renamed.1=classes2.dex
