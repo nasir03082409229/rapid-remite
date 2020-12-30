@@ -115,7 +115,7 @@ export const updateUser = (instance, credentials, navigate) => async (
           //     routes: [{ name: "Home" }],
           //   })
           // );
-          instance.props.navigation.goBack();
+          navigate && instance.props.navigation.goBack();
         }
         // alert("signUp SUCCCESSFUL")
       }
